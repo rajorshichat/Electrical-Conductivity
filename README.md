@@ -20,7 +20,7 @@ This repository contains Python implementation of the Green Kubo relation used t
 3. conductivity.ipynb - Python code to calculate electrical conductivity with Green Kubo relation as:
 
    
-    $\sigma=\frac{1}{3Vk_{B}T}\int_{0}^{\infty} \langle \vec{j}(0)\vec{j}(t) \rangle dt$   where, 
+    $\sigma=\frac{1}{3Vk_{B}T}\int_{0}^{\infty} \langle \vec{j}(0)\vec{j}(t) \rangle dt$ , where
 
 
     $\vec{j}(t)=\sum_{ions}q_{ion}\vec{v}_{ion}$
