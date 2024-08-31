@@ -3,6 +3,7 @@ This repository contains Python implementation of the Green Kubo relation used t
 
 1. input.dat - charge current ($\sum_{ion}q_{ion}\vec{v}_{ion}$) data obtained from LAMMPS. Please run your LAMMPS simulations with the following commands:
    ```
+   group ion type 3 4
    compute             1 ion property/atom q vx vy vz
    variable           condx atom c_1[1]*c_1[2]
    variable           condy atom c_1[1]*c_1[3]
